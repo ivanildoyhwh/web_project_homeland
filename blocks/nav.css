@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  padding-top: 34px;
+}
+@media screen and (max-width: 544px) {
+  .nav {
+    padding-top: 20px;
+  }
+
+  .nav__logo {
+    width: 188px;
+  }
+}
