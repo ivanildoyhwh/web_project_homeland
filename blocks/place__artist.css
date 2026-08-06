@@ -1,0 +1,12 @@
+.place__artist {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.place__artist:not(:last-child) {
+  margin-bottom: 4px;
+}
