@@ -4,18 +4,6 @@
   gap: 80px;
 }
 
-.place {
-  display: grid;
-  align-items: start;
-  grid-template-columns: 460px 1fr;
-  grid-template-areas:
-    "title   website"
-    "image   text"
-    "cta     text";
-  column-gap: 40px;
-  row-gap: 48px;
-}
-
 @media (max-width: 1023px) {
   .places {
     gap: 72px;
@@ -27,21 +15,8 @@
   }
 }
 
-
-
-
 @media (max-width: 767px) {
   .places {
     gap: 50px;
   }
-
-  .place {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "title"
-      "website"
-      "image"
-      "text"
-      "cta";
-    row-gap: 24px;
-  }
+}
