@@ -4,5 +4,13 @@
 }
 
 .place__website {
-  align-self: start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+@media (max-width: 767px) {
+  .place__website {
+    align-self: start;
+  }
 }

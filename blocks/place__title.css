@@ -12,9 +12,12 @@
 .place__title {
   font-size: 42px;
   line-height: 46px;
+  grid-area: title;
 }
 
-.place__title {
-  font-size: 32px;
-  line-height: 35px;
+@media (max-width: 767px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

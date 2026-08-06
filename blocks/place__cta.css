@@ -28,7 +28,9 @@
   color: #ffffff;
 }
 
-.place__cta {
-  width: 100%;
-  justify-content: center;
+@media (max-width: 767px) {
+  .place__cta {
+    width: 100%;
+    justify-content: center;
+  }
 }
