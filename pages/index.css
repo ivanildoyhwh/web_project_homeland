@@ -9,15 +9,4 @@
 @import url("../blocks/photo-grid.css");
 @import url("../blocks/photo-grid__item.css");
 @import url("../blocks/places.css");
-@import url("../blocks/places__list.css");
-@import url("../blocks/place.css");
-@import url("../blocks/place__url-heading.css");
-@import url("../blocks/place__artist.css");
-@import url("../blocks/place__cta-text.css");
-@import url("../blocks/place__cta.css");
-@import url("../blocks/place__image.css");
-@import url("../blocks/place__paragraph.css");
-@import url("../blocks/place__text.css");
-@import url("../blocks/place__title.css");
-@import url("../blocks/place__website.css");
 @import url("../blocks/footer.css");
