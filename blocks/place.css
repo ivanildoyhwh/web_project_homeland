@@ -1,8 +1,7 @@
 .place {
   display: grid;
   align-items: start;
-
-  grid-template-columns: 460px 1fr;
+  grid-template-columns: minmax(280px, 460px) 1fr;
   grid-template-areas:
     "title website"
     "image text"
@@ -84,7 +83,6 @@
   grid-area: image;
   display: block;
   width: 100%;
-
   aspect-ratio: 1/1;
   background-color: #c4c4c4;
   background-size: cover;
@@ -111,23 +109,22 @@
   margin: 0;
   font-family: "Inter", sans-serif;
   font-weight: 900;
-
   line-height: 76px;
   color: #ffffff;
   font-size: 72px;
-}
-
-@media (max-width: 767px) {
-  .place__title {
-    font-size: 32px;
-    line-height: 35px;
-  }
 }
 
 @media (max-width: 1023px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
+  }
+}
+
+@media (max-width: 767px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
   }
 }
 
@@ -148,12 +145,6 @@
 @media (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
-  }
-}
-
-@media (max-width: 767px) {
-  .place__image {
-    width: 100%;
   }
 }
 
