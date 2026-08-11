@@ -11,14 +11,17 @@
     gap: 72px;
   }
 
-  .place {
-    grid-template-columns: 340px 1fr;
-    column-gap: 28px;
+  .places__list {
+    gap: 72px;
   }
 }
 
 @media (max-width: 767px) {
   .places {
+    gap: 50px;
+  }
+
+  .places__list {
     gap: 50px;
   }
 }
@@ -30,16 +33,4 @@
   display: flex;
   flex-direction: column;
   gap: 80px;
-}
-
-@media (max-width: 1023px) {
-  .places__list {
-    gap: 72px;
-  }
-}
-
-@media (max-width: 767px) {
-  .places__list {
-    gap: 50px;
-  }
 }
